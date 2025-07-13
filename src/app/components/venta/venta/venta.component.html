@@ -174,8 +174,16 @@
               <tbody>
                 @for(producto of listProductos;track producto.codigo){
                 <tr>
-                  <td>{{ producto.codigo }}</td>
-                  <td>{{ producto.nombre }}</td>
+                  <td class="codigo">
+                    <div class="codigo-scroll">
+                      {{ producto.codigo }}
+                    </div>
+                  </td>              
+                  <td class="nombre">
+                    <div class="nombre-scroll">
+                      {{ producto.nombre }}
+                    </div>
+                  </td>
                   <td>${{producto.precio| number:'1.0-0' }}</td>
                   <td>{{ producto.cantidad }}</td>
                   <td>{{producto.formaVenta}}</td>

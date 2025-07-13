@@ -167,6 +167,31 @@ th {
   color: rgb(97, 97, 97); 
 }
 
+th.codigo, td.codigo {
+  width: 20%;
+  max-width: 20%;
+}
+
+.codigo-scroll {
+  overflow-x: auto;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: block;
+  max-width: 120px;
+}
+
+th.nombre, td.nombre {
+  width: 60%;
+  max-width: 60%;
+}
+
+.nombre-scroll {
+  overflow-x: auto;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: block;
+  max-width: 100%;
+}
 
 tr:nth-child(odd) {
   background-color: #ffffff; 

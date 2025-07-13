@@ -65,6 +65,9 @@ export class CajaComponent {
 
 
   mostrarModal(action: 'ingreso' | 'egreso') {
+    if (this.menuComponent.estadoMenu) {
+      this.menuComponent.cerrarMenu();
+    }
     this.limpiarCampos(); // Limpia los campos antes de mostrar el modal
     this.currentAction = action;
     this.modalTitle = action === 'ingreso' ? 'Ingreso de Valor' : 'Egreso de Valor';
@@ -175,6 +178,9 @@ export class CajaComponent {
   }
 
   limpiarDatos() {
+    if (this.menuComponent.estadoMenu) {
+      this.menuComponent.cerrarMenu();
+    }
     this.cajaService.preguntarLimpiarCaja().then((result) => {
       if (result) {
         localStorage.removeItem('totalVentas');

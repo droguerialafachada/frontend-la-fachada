@@ -13,12 +13,12 @@ export const environment = {
   imageUrl: '../../assets/404-status-code.png',
 
   //Este es el nombre de la tienda
-  nombreNegocio: 'Droguería Quintas de La Fachada',
-  direccionNegocio: 'Armenia Quindío',
-  gerenteNegocio: 'Alex',
-  fechaExpedicion: '2024/12/10',
-  telefonos: '123 456 7890',
-  resolucionDian: '123456789',
-  nit: '890.107.487-3',
-  correo: 'lafachada@gmail.com'
+  nombreNegocio: 'DROGUERIA QUINTAS DE LA FACHADA',
+  direccionNegocio: 'BRR LA FACHADA MZ 20 CA 18, Armenia Quindío',
+  gerenteNegocio: 'ALEXANDER TUBERQUIA ARIAS',
+  fechaExpedicion: '2024/07/10',
+  telefonos: '3137844742',
+  resolucionDian: '141140010672',
+  nit: '18471393-5',
+  correo: 'alexander.tuberquia2284@gmail.com'
 }
